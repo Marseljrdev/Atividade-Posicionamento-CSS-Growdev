@@ -1,0 +1,38 @@
+.section {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 700px;
+    top: 100px;
+    left: 500px;
+    background-color:  lightgray;
+}
+
+.box1 {
+    position: absolute;
+    top: 60px;
+    background-color: rgba(0, 0, 0, 0.47);
+    padding: 25px;
+    width: 600px;
+    border-radius: 12px;
+    text-align: right;
+}
+
+
+.box2 {
+    background-color: rgba(0, 0, 0, 0.47);
+    width: 600px;
+    height: 150px;
+    border: 2px solid red;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    bottom: 60px;
+    text-align: center;
+    padding: 10px 25px;
+}
+

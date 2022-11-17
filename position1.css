@@ -1,0 +1,83 @@
+
+.section { 
+    width: 40vw;
+    height: 60vh;
+    /* max-width: 500px; */
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    top: 190px;
+    left: 550px;
+    /* right: 300px; */
+}
+
+/* .box1 {
+    width: 700px;
+    height: 600px;
+    background: lightgray;
+    position: relative;
+} */
+
+.box2 {
+    width: 600px;
+    height: 500px;
+    background: blue;
+    z-index: 1;
+    position: absolute;
+    float: none;
+}
+
+.box3 {
+    width: 500px;
+    height: 400px;
+    background: red;
+    z-index: 2;
+    position: absolute;
+    float: none;
+}
+
+.box4 {
+    width: 400px;
+    height: 300px;
+    background: black;
+    z-index: 3;
+    position: absolute;
+    float: none;
+}
+
+.box5 {
+    width: 300px;
+    height: 200px;
+    background: green;
+    z-index: 4;
+    position: absolute;
+    float: none;
+}
+
+.box6 {
+    width: 200px;
+    height: 100px;
+    background: yellow;
+    z-index: 5;
+    position: absolute;
+    float: none;
+}
+
+/* .box4 {
+    width: 600px;
+    height: 400px;
+    background: blue;
+    z-index: 1;
+
+    float: none;
+}
+ */
+/* .box5 {
+    width: 600px;
+    height: 400px;
+    background: blue;
+    z-index: 1;
+    float: none;
+}  */

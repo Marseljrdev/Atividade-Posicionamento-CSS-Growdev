@@ -1,0 +1,49 @@
+.section {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 700px;
+    height: 500px;
+    top: 190px;
+    left: 600px;
+    background-color: lightgray;
+    /* float: right; */
+}
+
+.box1 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    top: 0;
+    left: 0;
+}
+
+.box2 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    top: 0;
+    right: 0;
+}
+
+.box3 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+}
+
+.box4 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    bottom: 0;
+    right: 0;
+}

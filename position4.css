@@ -1,0 +1,131 @@
+.section {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 700px;
+    top: 150px;
+    left: 450px;
+    background-color: lightgray;
+}
+
+.box1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    top: 0;
+    left: 0;
+    float: left;
+}
+
+.box2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    top: 0;
+    left: 105px;
+    float: left;
+}
+
+.box3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    top: 210px;
+    left: 0;
+    float: left;
+}
+
+.box4 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    top: 105px;
+    left: 0;
+    float: left;
+}
+
+.box5 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    top: 0;
+    left: 210px;
+    float: left;
+}
+
+.box6 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    top: 104px;
+    left: 105px;
+    float: left;
+}
+
+.box7 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    right: 0;
+    float: right;
+}
+
+.box8 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    right: 0;
+    bottom: 105px;
+    float: right;
+}
+
+.box9 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    right: 0;
+    float: right;
+    bottom: 210px;
+}
+
+.box10 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    right: 105px;
+    float: right;
+    bottom: 0;
+}
+
+.box11 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    right: 210px; 
+    float: right;
+    bottom: 0;
+}
+
+.box12 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    right: 105px; 
+    float: right;
+    bottom: 104px;
+}
